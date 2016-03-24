@@ -1,0 +1,5 @@
+<?php
+require_once './Connect2.1/API/qqConnectAPI.php';
+$oauth = new Oauth();
+$access_token = $oauth->get_access_token();
+var_dump($access_token);

@@ -1,0 +1,230 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+APIMap	Connect2.1\API\class\QC.class.php	/^        $this->APIMap = array($/;"	v
+CLASS_PATH	Connect2.1\API\comm\config.php	/^define("CLASS_PATH",ROOT."class\/");$/;"	d
+COOKIE_DOMAIN	Connect2.1\example\comm\session.php	/^define("COOKIE_DOMAIN", true); $/;"	d
+COOKIE_DOMAIN	Connect2.1\example\comm\session2.php	/^define("COOKIE_DOMAIN", true); $/;"	d
+ErrorCase	Connect2.1\API\class\ErrorCase.class.php	/^class ErrorCase{$/;"	c
+MAIN_DOMAIN	Connect2.1\example\comm\session.php	/^define("MAIN_DOMAIN", ".webpluz.org");   $/;"	d
+MAIN_DOMAIN	Connect2.1\example\comm\session2.php	/^define("MAIN_DOMAIN", ".oauth.com");   \/\/设置主域名$/;"	d
+Oauth	Connect2.1\API\class\Oauth.class.php	/^class Oauth{$/;"	c
+QC	Connect2.1\API\class\QC.class.php	/^class QC extends Oauth{$/;"	c
+QQDEBUG	Connect2.1\example\comm\config.php	/^define("QQDEBUG", true);$/;"	d
+QQDEBUG	Connect2.1\example\comm\config2.php	/^define("QQDEBUG", true);$/;"	d
+ROOT	Connect2.1\API\comm\config.php	/^define("ROOT",dirname(dirname(__FILE__))."\/");$/;"	d
+Recorder	Connect2.1\API\class\Recorder.class.php	/^class Recorder{$/;"	c
+Recorder	Connect2.1\install\Recorder.class.php	/^class Recorder{$/;"	c
+Session	Connect2.1\example\comm\session.php	/^class Session $/;"	c
+Session	Connect2.1\example\comm\session2.php	/^class Session $/;"	c
+URL	Connect2.1\API\class\URL.class.php	/^class URL{$/;"	c
+USER_SESSION	Connect2.1\example\comm\session.php	/^define("USER_SESSION", true);$/;"	d
+USER_SESSION	Connect2.1\example\comm\session2.php	/^define("USER_SESSION", false);$/;"	d
+__call	Connect2.1\API\class\QC.class.php	/^    public function __call($name,$arg){$/;"	f
+__construct	Connect2.1\API\class\ErrorCase.class.php	/^    public function __construct(){$/;"	f
+__construct	Connect2.1\API\class\Oauth.class.php	/^    function __construct(){$/;"	f
+__construct	Connect2.1\API\class\QC.class.php	/^    public function __construct($access_token = "", $openid = ""){$/;"	f
+__construct	Connect2.1\API\class\Recorder.class.php	/^    public function __construct(){$/;"	f
+__construct	Connect2.1\API\class\URL.class.php	/^    public function __construct(){$/;"	f
+__construct	Connect2.1\install\Recorder.class.php	/^    public function __construct(){$/;"	f
+__destruct	Connect2.1\API\class\Recorder.class.php	/^    function __destruct(){$/;"	f
+__destruct	Connect2.1\install\Recorder.class.php	/^    function __destruct(){$/;"	f
+_applyAPI	Connect2.1\API\class\QC.class.php	/^    private function _applyAPI($arr, $argsList, $baseUrl, $method){$/;"	f
+access_token	callback.php	/^$access_token = $qc->get_access_token();$/;"	v
+appid	Connect2.1\API\class\Oauth.class.php	/^        $appid = $this->recorder->readInc("appid");$/;"	v
+argsList	Connect2.1\API\class\QC.class.php	/^        $argsList = $this->APIMap[$name][1];$/;"	v
+arr	Connect2.1\API\class\QC.class.php	/^        $arr = array();$/;"	v
+arr	Connect2.1\example\photo\add_album.php	/^$arr = $qc->add_album($_POST);$/;"	v
+arr	Connect2.1\example\photo\list_album.php	/^$arr = $qc->list_album();$/;"	v
+arr	Connect2.1\example\photo\upload_pic.php	/^$arr = $qc->list_album();$/;"	v
+arr	Connect2.1\example\photo\upload_pic_p.php	/^$arr = $qc->upload_pic($_POST);$/;"	v
+arr	Connect2.1\example\user\get_user_info.php	/^$arr = $qc->get_user_info();$/;"	v
+baseUrl	Connect2.1\API\class\QC.class.php	/^        $baseUrl = $this->APIMap[$name][0];$/;"	v
+callback	Connect2.1\API\class\Oauth.class.php	/^        $callback = $this->recorder->readInc("callback");$/;"	v
+ch	Connect2.1\API\class\URL.class.php	/^            $ch = curl_init();$/;"	v
+ch	Connect2.1\API\class\URL.class.php	/^        $ch = curl_init();$/;"	v
+ch	Connect2.1\API\comm\utils.php	/^    $ch = curl_init();$/;"	v
+ch	Connect2.1\example\comm\utils.php	/^    $ch = curl_init();$/;"	v
+close	Connect2.1\example\comm\session.php	/^    function close() $/;"	f
+close	Connect2.1\example\comm\session2.php	/^    function close() $/;"	f
+closeChildWindow	Connect2.1\example\index.html	/^            function closeChildWindow()$/;"	f
+combineURL	Connect2.1\API\class\URL.class.php	/^    public function combineURL($baseURL,$keysArr){$/;"	f
+combined	Connect2.1\API\class\URL.class.php	/^        $combined = $baseURL."?";$/;"	v
+combined	Connect2.1\API\class\URL.class.php	/^        $combined = $this->combineURL($url, $keysArr);$/;"	v
+data	Connect2.1\API\class\Recorder.class.php	/^    private static $data;$/;"	v
+data	Connect2.1\install\Recorder.class.php	/^    private static $data;$/;"	v
+dbSel	Connect2.1\example\comm\session.php	/^        $dbSel = mysql_select_db(self::db_name, $db_handle);$/;"	v
+dbSel	Connect2.1\example\comm\session2.php	/^        $dbSel = @mysql_select_db(self::db_name, $db_handle);$/;"	v
+db_handle	Connect2.1\example\comm\session.php	/^        $db_handle = mysql_connect(self::db_host, self::db_user, self::db_pwd);$/;"	v
+db_handle	Connect2.1\example\comm\session.php	/^        $this->db_handle = $db_handle;$/;"	v
+db_handle	Connect2.1\example\comm\session.php	/^    private $db_handle;$/;"	v
+db_handle	Connect2.1\example\comm\session2.php	/^        $db_handle = @mysql_connect(self::db_host, self::db_user, self::db_pwd);$/;"	v
+db_handle	Connect2.1\example\comm\session2.php	/^        $this->db_handle = $db_handle;$/;"	v
+db_handle	Connect2.1\example\comm\session2.php	/^    private $db_handle;$/;"	v
+delete	Connect2.1\API\class\Recorder.class.php	/^    public function delete($name){$/;"	f
+delete	Connect2.1\install\Recorder.class.php	/^    public function delete($name){$/;"	f
+description	Connect2.1\API\class\ErrorCase.class.php	/^    public function showError($code, $description = '$'){$/;"	v
+description	Connect2.1\API\class\ErrorCase.class.php	/^    public function showTips($code, $description = '$'){$/;"	v
+destroy	Connect2.1\example\comm\session.php	/^    function destroy($sessID) $/;"	f
+destroy	Connect2.1\example\comm\session2.php	/^    function destroy($sessID) $/;"	f
+do_post	Connect2.1\API\comm\utils.php	/^function do_post($url, $data)$/;"	f
+do_post	Connect2.1\example\comm\utils.php	/^function do_post($url, $data)$/;"	f
+error	Connect2.1\API\class\Oauth.class.php	/^        $this->error = new ErrorCase();$/;"	v
+error	Connect2.1\API\class\Oauth.class.php	/^    protected $error;$/;"	v
+error	Connect2.1\API\class\Recorder.class.php	/^        $this->error = new ErrorCase();$/;"	v
+error	Connect2.1\API\class\Recorder.class.php	/^    private $error;$/;"	v
+error	Connect2.1\API\class\URL.class.php	/^        $this->error = new ErrorCase();$/;"	v
+error	Connect2.1\API\class\URL.class.php	/^    private $error;$/;"	v
+error	Connect2.1\install\Recorder.class.php	/^        $this->error = new ErrorCase();$/;"	v
+error	Connect2.1\install\Recorder.class.php	/^    private $error;$/;"	v
+errorMsg	Connect2.1\API\class\ErrorCase.class.php	/^        $this->errorMsg = array($/;"	v
+errorMsg	Connect2.1\API\class\ErrorCase.class.php	/^    private $errorMsg;$/;"	v
+filename	Connect2.1\API\class\QC.class.php	/^                        $filename = dirname($v['tmp_name'])."\/".$v['name'];$/;"	v
+flag	Connect2.1\API\class\URL.class.php	/^    public function post($url, $keysArr, $flag = 0){$/;"	v
+gc	Connect2.1\example\comm\session.php	/^    function gc($sessMaxLifeTime) $/;"	f
+gc	Connect2.1\example\comm\session2.php	/^    function gc($sessMaxLifeTime) $/;"	f
+get	Connect2.1\API\class\URL.class.php	/^    public function get($url, $keysArr){$/;"	f
+get_access_token	Connect2.1\API\class\QC.class.php	/^    public function get_access_token(){$/;"	f
+get_contents	Connect2.1\API\class\URL.class.php	/^    public function get_contents($url){$/;"	f
+get_openid	Connect2.1\API\class\Oauth.class.php	/^    public function get_openid(){$/;"	f
+get_url_contents	Connect2.1\API\comm\utils.php	/^function get_url_contents($url)$/;"	f
+get_url_contents	Connect2.1\example\comm\utils.php	/^function get_url_contents($url)$/;"	f
+graph_url	Connect2.1\API\class\Oauth.class.php	/^        $graph_url = $this->urlUtils->combineURL(self::GET_OPENID_URL, $keysArr);$/;"	v
+inc	Connect2.1\API\class\Recorder.class.php	/^        $this->inc = json_decode($incFileContents);$/;"	v
+inc	Connect2.1\API\class\Recorder.class.php	/^    private $inc;$/;"	v
+inc	Connect2.1\install\Recorder.class.php	/^        $this->inc = json_decode($incFileContents);$/;"	v
+inc	Connect2.1\install\Recorder.class.php	/^    private $inc;$/;"	v
+incFile	Connect2.1\install\index.php	/^    $incFile = fopen("..\/API\/comm\/inc.php","w+") or die("请设置API\\comm\\inc.php的权限为777");$/;"	v
+incFileContents	Connect2.1\API\class\Recorder.class.php	/^        $incFileContents = $incFileContents[1];$/;"	v
+incFileContents	Connect2.1\API\class\Recorder.class.php	/^        $incFileContents = file(ROOT."comm\/inc.php");$/;"	v
+incFileContents	Connect2.1\install\Recorder.class.php	/^        $incFileContents = file_get_contents(ROOT."comm\/inc.php");$/;"	v
+jValue	Connect2.1\API\class\QC.class.php	/^            $jValue = explode(":", $v);$/;"	v
+json	Connect2.1\API\class\QC.class.php	/^        $json = str_replace("{","",str_replace("}","", $json));$/;"	v
+jsonValue	Connect2.1\API\class\QC.class.php	/^        $jsonValue = explode(",", $json);$/;"	v
+k	Connect2.1\API\class\QC.class.php	/^        foreach($obj as $k => $v){$/;"	v
+k	Connect2.1\install\index.php	/^    foreach($_POST as $k => $val){$/;"	v
+key	Connect2.1\API\class\QC.class.php	/^        foreach($argsList as $key => $val){$/;"	v
+key	Connect2.1\API\class\URL.class.php	/^        foreach($keysArr as $key => $val){$/;"	v
+keyStr	Connect2.1\API\class\URL.class.php	/^        $keyStr = implode("&",$valueArr);$/;"	v
+keysArr	Connect2.1\API\class\Oauth.class.php	/^        $keysArr = array($/;"	v
+keysArr	Connect2.1\API\class\QC.class.php	/^            $this->keysArr = array($/;"	v
+keysArr	Connect2.1\API\class\QC.class.php	/^        $keysArr = $this->keysArr;$/;"	v
+lifeTime	Connect2.1\example\comm\session.php	/^        $this->lifeTime = get_cfg_var("session.gc_maxlifetime");$/;"	v
+lifeTime	Connect2.1\example\comm\session.php	/^    private $lifeTime;$/;"	v
+lifeTime	Connect2.1\example\comm\session2.php	/^        $this->lifeTime = get_cfg_var("session.gc_maxlifetime");$/;"	v
+lifeTime	Connect2.1\example\comm\session2.php	/^    private $lifeTime;$/;"	v
+login_url	Connect2.1\API\class\Oauth.class.php	/^        $login_url =  $this->urlUtils->combineURL(self::GET_AUTH_CODE_URL, $keysArr);$/;"	v
+lpos	Connect2.1\API\class\Oauth.class.php	/^            $lpos = strpos($response, "(");$/;"	v
+method	Connect2.1\API\class\QC.class.php	/^        $method = isset($this->APIMap[$name][2]) ? $this->APIMap[$name][2] : "GET";$/;"	v
+msg	Connect2.1\API\class\Oauth.class.php	/^            $msg = json_decode($response);$/;"	v
+n	Connect2.1\API\class\QC.class.php	/^            $n = 0;$/;"	v
+newExp	Connect2.1\example\comm\session.php	/^        $newExp = time() + $this->lifeTime;$/;"	v
+newExp	Connect2.1\example\comm\session2.php	/^        $newExp = time() + $this->lifeTime;$/;"	v
+oauth	index.php	/^$oauth = new Oauth();$/;"	v
+objToArr	Connect2.1\API\class\QC.class.php	/^    private function objToArr($obj){$/;"	f
+open	Connect2.1\example\comm\session.php	/^    function open($savePath, $sessName) $/;"	f
+open	Connect2.1\example\comm\session2.php	/^    function open($savePath, $sessName) $/;"	f
+openid	Connect2.1\API\class\QC.class.php	/^        if($access_token === "" || $openid === ""){$/;"	v
+openid	Connect2.1\API\class\QC.class.php	/^    public function __construct($access_token = "", $openid = ""){$/;"	v
+optionArgList	Connect2.1\API\class\QC.class.php	/^        $optionArgList = array();\/\/一些多项选填参数必选一的情形$/;"	v
+params	Connect2.1\API\class\Oauth.class.php	/^        $params = array();$/;"	v
+post	Connect2.1\API\class\URL.class.php	/^    public function post($url, $keysArr, $flag = 0){$/;"	f
+pre	Connect2.1\API\class\QC.class.php	/^        $pre = "#";$/;"	v
+qc	Connect2.1\example\add_idol\add_idol.php	/^    $qc = new QC();$/;"	v
+qc	Connect2.1\example\add_pic_t\add_pic_t.php	/^    $qc = new QC();$/;"	v
+qc	Connect2.1\example\blog\add_blog.php	/^$qc = new QC();$/;"	v
+qc	Connect2.1\example\check_fan\check_page_fans.php	/^    $qc = new QC();$/;"	v
+qc	Connect2.1\example\get_fanslist\get_fanslist.php	/^$qc = new QC();$/;"	v
+qc	Connect2.1\example\get_idollist\get_idollist.php	/^$qc = new QC();$/;"	v
+qc	Connect2.1\example\get_info\get_info.php	/^$qc = new QC();$/;"	v
+qc	Connect2.1\example\get_repost_list\get_repost_list .php	/^    $qc = new QC();$/;"	v
+qc	Connect2.1\example\get_tenpay_addr\get_tenpay_addr.php	/^$qc = new QC();$/;"	v
+qc	Connect2.1\example\oauth\callback.php	/^$qc = new QC();$/;"	v
+qc	Connect2.1\example\oauth\index.php	/^$qc = new QC();$/;"	v
+qc	Connect2.1\example\photo\add_album.php	/^$qc = new QC();$/;"	v
+qc	Connect2.1\example\photo\list_album.php	/^$qc = new QC();$/;"	v
+qc	Connect2.1\example\photo\upload_pic.php	/^$qc = new QC();$/;"	v
+qc	Connect2.1\example\photo\upload_pic_p.php	/^$qc = new QC();$/;"	v
+qc	Connect2.1\example\share\add_share.php	/^$qc = new QC();$/;"	v
+qc	Connect2.1\example\topic\add_topic.php	/^$qc = new QC();$/;"	v
+qc	Connect2.1\example\user\get_user_info.php	/^$qc = new QC();$/;"	v
+qc	Connect2.1\example\weibo\add_weibo.php	/^$qc = new QC();$/;"	v
+qc	callback.php	/^$qc = new QC();$/;"	v
+qq_callback	Connect2.1\API\class\Oauth.class.php	/^    public function qq_callback(){$/;"	f
+qq_login	Connect2.1\API\class\Oauth.class.php	/^    public function qq_login(){$/;"	f
+read	Connect2.1\API\class\Recorder.class.php	/^    public function read($name){$/;"	f
+read	Connect2.1\example\comm\session.php	/^    function read($sessID) $/;"	f
+read	Connect2.1\example\comm\session2.php	/^    function read($sessID) $/;"	f
+read	Connect2.1\install\Recorder.class.php	/^    public function read($name){$/;"	f
+readInc	Connect2.1\API\class\Recorder.class.php	/^    public function readInc($name){$/;"	f
+readInc	Connect2.1\install\Recorder.class.php	/^    public function readInc($name){$/;"	f
+recorder	Connect2.1\API\class\ErrorCase.class.php	/^        $recorder = new Recorder();$/;"	v
+recorder	Connect2.1\API\class\Oauth.class.php	/^        $this->recorder = new Recorder();$/;"	v
+recorder	Connect2.1\API\class\Oauth.class.php	/^    protected $recorder;$/;"	v
+res	Connect2.1\example\comm\session.php	/^        $res = mysql_query("SELECT * FROM ".self::db_table." $/;"	v
+res	Connect2.1\example\comm\session.php	/^        $res = mysql_query("SELECT session_data AS d FROM ".self::db_table." $/;"	v
+res	Connect2.1\example\comm\session2.php	/^        $res = @mysql_query("SELECT * FROM ".self::db_table." $/;"	v
+res	Connect2.1\example\comm\session2.php	/^        $res = @mysql_query("SELECT session_data AS d FROM ".self::db_table." $/;"	v
+response	Connect2.1\API\class\Oauth.class.php	/^            $response  = substr($response, $lpos + 1, $rpos - $lpos -1);$/;"	v
+response	Connect2.1\API\class\Oauth.class.php	/^            $response = substr($response, $lpos + 1, $rpos - $lpos -1);$/;"	v
+response	Connect2.1\API\class\Oauth.class.php	/^        $response = $this->urlUtils->get_contents($graph_url);$/;"	v
+response	Connect2.1\API\class\Oauth.class.php	/^        $response = $this->urlUtils->get_contents($token_url);$/;"	v
+response	Connect2.1\API\class\QC.class.php	/^            $response = $this->urlUtils->get($baseUrl, $keysArr);$/;"	v
+response	Connect2.1\API\class\QC.class.php	/^            $response = json_decode($this->_applyAPI($arg[0], $argsList, $baseUrl, $method));$/;"	v
+response	Connect2.1\API\class\QC.class.php	/^            else $response = $this->urlUtils->post($baseUrl, $keysArr, 0);$/;"	v
+response	Connect2.1\API\class\QC.class.php	/^            if($baseUrl == "https:\/\/graph.qq.com\/blog\/add_one_blog") $response = $this->urlUtils->post($baseUrl, $keysArr, 1);$/;"	v
+response	Connect2.1\API\class\URL.class.php	/^            $response =  curl_exec($ch);$/;"	v
+response	Connect2.1\API\class\URL.class.php	/^            $response = file_get_contents($url);$/;"	v
+responseArr	Connect2.1\API\class\QC.class.php	/^            $responseArr = $this->objToArr($response);$/;"	v
+responseArr	Connect2.1\API\class\QC.class.php	/^            $responseArr = $this->simple_json_parser($this->_applyAPI($arg[0], $argsList, $baseUrl, $method));$/;"	v
+result	Connect2.1\API\comm\utils.php	/^    $result =  curl_exec($ch);$/;"	v
+result	Connect2.1\example\comm\utils.php	/^    $result =  curl_exec($ch);$/;"	v
+ret	Connect2.1\API\class\URL.class.php	/^        $ret = curl_exec($ch);$/;"	v
+ret	Connect2.1\API\comm\utils.php	/^    $ret = curl_exec($ch);$/;"	v
+ret	Connect2.1\example\add_idol\add_idol.php	/^    $ret = $qc->add_idol($_POST);$/;"	v
+ret	Connect2.1\example\add_pic_t\add_pic_t.php	/^    $ret = $qc->add_pic_t($_POST);$/;"	v
+ret	Connect2.1\example\blog\add_blog.php	/^$ret = $qc->add_one_blog($_POST);$/;"	v
+ret	Connect2.1\example\check_fan\check_page_fans.php	/^    $ret = $qc->check_page_fans($_GET);$/;"	v
+ret	Connect2.1\example\comm\utils.php	/^    $ret = curl_exec($ch);$/;"	v
+ret	Connect2.1\example\get_fanslist\get_fanslist.php	/^$ret = $qc->get_fanslist($setting);$/;"	v
+ret	Connect2.1\example\get_idollist\get_idollist.php	/^$ret = $qc->get_idollist($setting);$/;"	v
+ret	Connect2.1\example\get_info\get_info.php	/^$ret = $qc->get_info();$/;"	v
+ret	Connect2.1\example\get_repost_list\get_repost_list .php	/^    $ret = $qc->add_pic_t($_POST);$/;"	v
+ret	Connect2.1\example\get_tenpay_addr\get_tenpay_addr.php	/^$ret = $qc->get_tenpay_addr();$/;"	v
+ret	Connect2.1\example\share\add_share.php	/^$ret = $qc->add_share($_GET);$/;"	v
+ret	Connect2.1\example\topic\add_topic.php	/^$ret = $qc->add_topic($_POST);$/;"	v
+ret	Connect2.1\example\weibo\add_weibo.php	/^$ret = $qc->add_t($_POST);$/;"	v
+rpos	Connect2.1\API\class\Oauth.class.php	/^            $rpos = strrpos($response, ")");$/;"	v
+scope	Connect2.1\API\class\Oauth.class.php	/^        $scope = $this->recorder->readInc("scope");$/;"	v
+session	Connect2.1\example\comm\session.php	/^    $session = new Session;$/;"	v
+session	Connect2.1\example\comm\session2.php	/^    $session = new Session;$/;"	v
+setting	Connect2.1\example\get_fanslist\get_fanslist.php	/^$setting = array($/;"	v
+setting	Connect2.1\example\get_idollist\get_idollist.php	/^$setting = array($/;"	v
+setting	Connect2.1\install\index.php	/^    $setting = "<?php die('forbidden'); ?>\\n";$/;"	v
+setting	Connect2.1\install\index.php	/^    $setting = str_replace("\\\/", "\/",$setting);$/;"	v
+showError	Connect2.1\API\class\ErrorCase.class.php	/^    public function showError($code, $description = '$'){$/;"	f
+showTips	Connect2.1\API\class\ErrorCase.class.php	/^    public function showTips($code, $description = '$'){$/;"	f
+simple_json_parser	Connect2.1\API\class\QC.class.php	/^    private function simple_json_parser($json){$/;"	f
+state	Connect2.1\API\class\Oauth.class.php	/^        $state = $this->recorder->read("state");$/;"	v
+state	Connect2.1\API\class\Oauth.class.php	/^        $state = md5(uniqid(rand(), TRUE));$/;"	v
+str	Connect2.1\API\class\QC.class.php	/^                $str = implode(",",$val);$/;"	v
+tmpKey	Connect2.1\API\class\QC.class.php	/^                        $tmpKey = str_replace($res[0], "", $tmpKey);$/;"	v
+tmpKey	Connect2.1\API\class\QC.class.php	/^                    $tmpKey = substr($tmpKey,1);$/;"	v
+tmpKey	Connect2.1\API\class\QC.class.php	/^                $tmpKey = $val;$/;"	v
+tmpKey	Connect2.1\API\class\QC.class.php	/^            $tmpKey = $key;$/;"	v
+tmpVal	Connect2.1\API\class\QC.class.php	/^                    $tmpVal = $pre;$/;"	v
+tmpVal	Connect2.1\API\class\QC.class.php	/^                    $tmpVal = null;$/;"	v
+tmpVal	Connect2.1\API\class\QC.class.php	/^            $tmpVal = $val;$/;"	v
+toQzoneLogin	Connect2.1\example\index.html	/^            function toQzoneLogin()$/;"	f
+token_url	Connect2.1\API\class\Oauth.class.php	/^        $token_url = $this->urlUtils->combineURL(self::GET_ACCESS_TOKEN_URL, $keysArr);$/;"	v
+urlUtils	Connect2.1\API\class\Oauth.class.php	/^        $this->urlUtils = new URL();$/;"	v
+urlUtils	Connect2.1\API\class\Oauth.class.php	/^    public $urlUtils;$/;"	v
+user	Connect2.1\API\class\Oauth.class.php	/^        $user = json_decode($response);$/;"	v
+valueArr	Connect2.1\API\class\URL.class.php	/^        $valueArr = array();$/;"	v
+write	Connect2.1\API\class\Recorder.class.php	/^    public function write($name,$value){$/;"	f
+write	Connect2.1\example\comm\session.php	/^    function write($sessID, $sessData) $/;"	f
+write	Connect2.1\example\comm\session2.php	/^    function write($sessID, $sessData) $/;"	f
+write	Connect2.1\install\Recorder.class.php	/^    public function write($name,$value){$/;"	f
